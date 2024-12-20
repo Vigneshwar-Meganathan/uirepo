@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --bg-theme: #F5F5F5;
+    /* --primary-color: #00205B; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2D2D2D;
+}
+
+.form-check-input:checked {
+    background-color: #72246C;
+    border-color: #72246C;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 0;
+}
+
+header .dropdown a span {
+    background-color: #72246C;
+}
+
+.main-content {
+    background-color: var(--bg-theme);
+    min-height: calc(100vh - 68px);
+}
+
+.welcome-thanks {
+    min-height: inherit;
+}
+
+.welcome-thanks .card-text {
+    color: #707070;
+}
+
+.welcome-thanks .card .btn-start {
+    background-color: #00205B;
+    color: #fff;
+    padding: 2% 15%;
+    border-radius: 4px;
+}
+
+.btn-submit {
+    background-color: #00205B;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.organisation-survey .lorem {
+    color: #686A6B;
+    border-bottom: 1px solid #E7E7E7;
+    width: fit-content;
+}
+
+.organisation-survey .organisation-question .option {
+    color: #626262;
+}
+
+@media screen and (max-width:767px) {
+    .welcome-thanks {
+        width: 90% !important;
+    }
+}
